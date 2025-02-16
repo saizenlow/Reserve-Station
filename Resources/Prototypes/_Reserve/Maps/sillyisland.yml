@@ -1,7 +1,7 @@
 - type: gameMap
   id: ReserveSillyIsland
   mapName: 'Silly Island'
-  mapPath: /Maps/_Reserve/sillyisland.yml
+  mapPath: /Maps/Reserve/sillyisland.yml
   maxRandomOffset: 0
   randomRotation: false
   minPlayers: 0
@@ -67,3 +67,10 @@
             Passenger: [ -1, -1 ]
             # silicon
             Borg: [ 1, 1 ]
+
+      # Goobstation blob-config-start SMALL+
+        - type: StationBlobConfig
+          stageBegin: 25
+          stageCritical: 350
+          stageTheEnd: 700
+      # Goobstation blob-config-end
